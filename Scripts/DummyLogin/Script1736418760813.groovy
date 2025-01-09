@@ -21,7 +21,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://t24jbbrw-test.alsalam.com.bh:8743/BrowserWeb/servlet/BrowserServlet')
 
-WebUI.setText(findTestObject('Object Repository/DummyLogin/Page_Transact Sign in/input_Username_signOnName'), 'VISHNU.1')
+WebUI.setText(findTestObject('Object Repository/DummyLogin/Page_Transact Sign in/input_Username_signOnName'), 'I.SIVA')
 
 WebUI.click(findTestObject('Object Repository/DummyLogin/Page_Transact Sign in/input_Username_sign-in'))
+
+WebUI.closeBrowser()
 
